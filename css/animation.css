@@ -1,0 +1,24 @@
+.quadrado{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: mover-e-mudar-cor 4s infinite;
+}
+
+@keyframes mover-e-mudar-cor {
+    0% {
+        left: 0;
+        background-color: red 
+    }
+
+    50%{
+        left: calc(100% - 100px);
+        background-color: blue;
+    }
+    100%{
+        left: 0;
+        background-color: red;
+    }
+}
+
