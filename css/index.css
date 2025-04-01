@@ -62,6 +62,7 @@ body {
     margin-left: 34%;
 }
 
+
 /* Estilo para inputs */
 input {
     padding: 10px;
@@ -118,7 +119,7 @@ footer {
 main {
     animation: slideIn 1s ease-out;
     width: 100%; 
-    padding: 20px;
+    padding: 150px;
 }
 
 /* Estilo de parágrafos e listas */
